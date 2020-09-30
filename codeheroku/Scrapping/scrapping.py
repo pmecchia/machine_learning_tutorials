@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 #EXERCISE 1
-comment='''URL="https://www.codeheroku.com/blog.html"
+URL="https://www.codeheroku.com/blog.html"
 
 page = requests.get(url=URL)
 content=page.content
@@ -22,7 +22,7 @@ for card in all_cards:
     blog['date_posted']=date
     data.append(blog)
 
-print(data)'''
+print(data)
 
 #EXERCISE 2
 
