@@ -49,7 +49,7 @@ for word in querry:
                 salary=re.sub(r'\s', '', salary)
                 by=salary.find("mois")
                 salary=min(re.findall(r"\d{1,10}(?:\.\d{1,10})?", salary))
-                if by==8:
+                if by!= -1:
                     salary=str(int(salary)*12)
 
             except:
