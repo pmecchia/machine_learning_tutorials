@@ -2,7 +2,7 @@ import requests,json, tweepy,csv
 
 #EXERCISE 1
 
-API_KEY='28bda9fdd982562edfcaae3dc1c0baad'
+API_KEY='XXXXXXXXXXXX'
 base_url='https://api.openweathermap.org/data/2.5/weather'
 payload={
     "q":"mumbai",
